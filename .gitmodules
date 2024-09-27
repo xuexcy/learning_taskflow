@@ -1,0 +1,3 @@
+[submodule "thirdparty/taskflow"]
+	path = thirdparty/taskflow
+	url = https://github.com/taskflow/taskflow.git
