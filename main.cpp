@@ -1,4 +1,5 @@
 #include <concepts>
+#include <functional>
 #include <print>
 
 #include "async.h"
@@ -11,19 +12,17 @@
 #include "dependent_async.h"
 #include "do_while_loop.h"
 #include "exception.h"
+#include "exclusive_scan.h"
 #include "utils/macros.h"
 
 #include "taskflow/taskflow.hpp"
 
-
-template <class F>
-requires std::invocable<F>
-void invoke(const std::string& name, F& f) {
-    std::print("------------ Start {} ------------\n", name);
-    f();
-    std::print("------------ End {} --------------\n\n", name);
+void invoke(const std::string& name, std::function<void()> f) {
+  std::print("------------ Start {} ------------\n", name);
+  f();
+  std::print("------------ End {} --------------\n\n", name);
 }
-#define LEARNING_TASKFLOW_INVOKE_EXPAND(A) #A, A
+#define LEARNING_TASKFLOW_INVOKE_EXPAND(A) #A, static_cast<void(*)()>(A)
 #define LEARNING_TASKFLOW_INVOKE(F) \
   invoke(LEARNING_TASKFLOW_INVOKE_EXPAND(learning_taskflow::run_##F));
 
@@ -55,6 +54,7 @@ int main(){
     dependent_async,
     do_while_loop,
     exception,
+    exclusive_scan,
   );
   return 0;
 }
