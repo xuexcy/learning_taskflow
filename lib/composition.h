@@ -1,6 +1,9 @@
-#include "utils/graph_visualize.h"
+#pragma once
 
 #include "taskflow/taskflow.hpp"
+
+#include "utils/graph_visualize.h"
+
 
 namespace learning_taskflow {
 

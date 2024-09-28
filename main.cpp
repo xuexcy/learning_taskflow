@@ -5,6 +5,13 @@
 #include "attach_data.h"
 #include "cancel.h"
 #include "composition.h"
+#include "condition.h"
+#include "corun.h"
+#include "dependent_async_algorithm.h"
+#include "dependent_async.h"
+#include "do_while_loop.h"
+#include "exception.h"
+#include "utils/macros.h"
 
 #include "taskflow/taskflow.hpp"
 
@@ -16,6 +23,9 @@ void invoke(const std::string& name, F& f) {
     f();
     std::print("------------ End {} --------------\n\n", name);
 }
+#define LEARNING_TASKFLOW_INVOKE_EXPAND(A) #A, A
+#define LEARNING_TASKFLOW_INVOKE(F) \
+  invoke(LEARNING_TASKFLOW_INVOKE_EXPAND(learning_taskflow::run_##F));
 
 int main(){
 
@@ -34,16 +44,17 @@ int main(){
 
   executor.run(taskflow).wait();
 
-  #define CONCAT(A, ...) A##__VA_ARGS__
-  #define EXPAND(A) #A, A
-  #define INVOKE(F) \
-    invoke(EXPAND(learning_taskflow::run_##F))
-  INVOKE(async);
-  INVOKE(attach_data);
-  INVOKE(cancel);
-  INVOKE(composition);
-  #undef CALL
-  #undef EXPAND
-  #undef CONCAT
+  FOR_EACH(LEARNING_TASKFLOW_INVOKE,
+    async,
+    attach_data,
+    cancel,
+    composition,
+    condition,
+    corun,
+    dependent_async_algorithm,
+    dependent_async,
+    do_while_loop,
+    exception,
+  );
   return 0;
 }

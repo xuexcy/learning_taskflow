@@ -36,6 +36,9 @@ def visualize_one(source, target):
         return
     subprocess.run([f'dot -Tsvg {source} -o {target}'], shell=True)
 
+def get_all_dot_files(root_dir):
+    for file in glob.iglob("**/*.dot", root_dir=root_dir, recursive=True):
+        yield os.path.join(root_dir, file)
 
 def visualize(files):
     for file in files:
@@ -43,17 +46,19 @@ def visualize(files):
         output = pre + '.svg'
         visualize_one(file, output)
 
-
-def get_all_files():
-    for file in glob.iglob("**/*.dot", recursive=True):
-        yield file
+def visualize_all(paths):
+    for path in paths:
+        if os.path.isdir(path):
+            visualize(get_all_dot_files(path))
+        else:
+            visualize([path])
 
 
 def main():
     if len(sys.argv) < 2:
-        visualize(get_all_files())
+        visualize_all("task_graph")
     else:
-        visualize(sys.argv[1:])
+        visualize_all(sys.argv[1:])
 
 if __name__ == '__main__':
     main()

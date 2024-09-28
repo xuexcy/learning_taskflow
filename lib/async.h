@@ -1,6 +1,9 @@
 #pragma once
 
+
 #include "taskflow/taskflow.hpp"
+
+#include "utils/graph_visualize.h"
 
 namespace learning_taskflow {
 void run_async() {

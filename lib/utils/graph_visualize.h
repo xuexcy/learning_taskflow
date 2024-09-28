@@ -1,27 +1,22 @@
 #pragma once
 
+#include <expected>
 #include <filesystem>
-
 
 namespace learning_taskflow::utils {
 
-std::optional<std::filesystem::path> get_visualize_path(const std::string& relative_path) {
+std::expected<std::filesystem::path, std::string> get_visualize_path(const std::string& relative_path) {
     static const std::filesystem::path VISUALIZE_DIR{"../task_graph"};
-    std::cout << "hi";
     if (!std::filesystem::exists(VISUALIZE_DIR)) {
-    std::cout << "he";
         if (!std::filesystem::create_directories(VISUALIZE_DIR)) {
-    std::cout << "ha";
-            std::println(
-                stderr, "create visualize directory error, VISUALIZE_DIR: {}",
-                VISUALIZE_DIR.string());
-            return std::nullopt;
+            return std::unexpected(std::format(
+                "create visualize directory error, VISUALIZE_DIR: {}",
+                VISUALIZE_DIR.string()));
         }
     } else if (!std::filesystem::is_directory(VISUALIZE_DIR)) {
-        std::println(
-            stderr, "default visualize directory exists but is a file, VISUALIZE_DIR: {}",
-            VISUALIZE_DIR.string());
-        return std::nullopt;
+        return std::unexpected(std::format(
+            "default visualize directory exists but is a file, VISUALIZE_DIR: {}",
+            VISUALIZE_DIR.string()));
     }
 
     return VISUALIZE_DIR / relative_path;
@@ -33,10 +28,14 @@ void visualize(
     auto graph_str = tf.dump();
     os << graph_str;
 
-    if (auto path = get_visualize_path(relative_path)) {
-        std::ofstream ofs(path.value());
+    auto path = get_visualize_path(relative_path);
+    if (path.has_value()) {
+        std::ofstream ofs(*path);
         ofs << graph_str;
         ofs.close();
+        std::print("dump taskflow {} to {}\n", tf.name(), (*path).string());
+    } else {
+        std::print(stderr, "get_visualize_path error, err_msg:[{}]\n", path.error());
     }
 }
 

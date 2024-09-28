@@ -14,15 +14,7 @@
 CUR_DIR=$(cd `dirname $0`; pwd)
 cd ${CUR_DIR}
 
-cd task_graph
-python3 ../visualize.py
-
-
-
-
-
-
-
+python3 visualize.py task_graph
 
 
 cd -
