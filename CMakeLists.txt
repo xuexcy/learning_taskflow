@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.18)
 project (learning_taskflow LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # https://zhuanlan.zhihu.com/p/687058798
 # include taskflow

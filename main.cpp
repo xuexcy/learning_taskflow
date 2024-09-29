@@ -1,4 +1,3 @@
-#include <concepts>
 #include <functional>
 #include <print>
 
@@ -13,6 +12,7 @@
 #include "do_while_loop.h"
 #include "exception.h"
 #include "exclusive_scan.h"
+#include "fibonacci.h"
 #include "utils/macros.h"
 
 #include "taskflow/taskflow.hpp"
@@ -55,6 +55,7 @@ int main(){
     do_while_loop,
     exception,
     exclusive_scan,
+    fibonacci,
   );
   return 0;
 }
