@@ -13,6 +13,9 @@
 #include "exception.h"
 #include "exclusive_scan.h"
 #include "fibonacci.h"
+#include "if_else.h"
+#include "inclusive_scan.h"
+#include "limited_concurrency.h"
 #include "utils/macros.h"
 
 #include "taskflow/taskflow.hpp"
@@ -56,6 +59,9 @@ int main(){
     exception,
     exclusive_scan,
     fibonacci,
+    if_else,
+    inclusive_scan,
+    limited_concurrency,
   );
   return 0;
 }

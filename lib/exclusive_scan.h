@@ -60,7 +60,7 @@ void run_exclusive_scan(size_t W, size_t N) {
         std::exclusive_scan(
             elements.begin(), elements.end(), scan_seq.begin(), 0
         );
-        // scan_seq: [0, 0 + 1, 0 + 1 + 2, ..., 0 + 1 + 2 + ... + N - 2]
+        // scan_seq: [0, 0 + 0, 0 + 0 + 1, ..., 0 + 1 + 2 + ... + N - 2]
         auto end = std::chrono::steady_clock::now();
         std::print(
             "// sequential exclusive scan {}ns\n",
