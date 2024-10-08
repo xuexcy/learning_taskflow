@@ -1,6 +1,7 @@
 #pragma once
 
 #include <numeric>
+#include <print>
 
 #include "taskflow/taskflow.hpp"
 #include "taskflow/algorithm/scan.hpp"

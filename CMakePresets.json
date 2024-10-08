@@ -5,7 +5,7 @@
             "name": "CMakePresets.json",
             "displayName": "Clang 16.0.0 x86_64-apple-darwin24.0.0",
             "description": "Using compilers: C = /usr/bin/clang, CXX = /usr/bin/clang++",
-            "binaryDir": "${sourceDir}/build/${presetName}",
+            "binaryDir": "${sourceDir}/build",
             "cacheVariables": {
                 "CMAKE_INSTALL_PREFIX": "${sourceDir}/install/${presetName}",
                 "CMAKE_C_COMPILER": "/usr/bin/clang",

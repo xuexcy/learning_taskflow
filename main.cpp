@@ -16,6 +16,7 @@
 #include "if_else.h"
 #include "inclusive_scan.h"
 #include "limited_concurrency.h"
+#include "multi_condition.h"
 #include "utils/macros.h"
 
 #include "taskflow/taskflow.hpp"
@@ -62,6 +63,7 @@ int main(){
     if_else,
     inclusive_scan,
     limited_concurrency,
+    multi_condition,
   );
   return 0;
 }
