@@ -3,6 +3,9 @@ project (learning_taskflow LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
+# https://github.com/Homebrew/homebrew-core/issues/169820#issuecomment-2071462943
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -L/usr/local/opt/llvm/lib/c++")
+
 # https://zhuanlan.zhihu.com/p/687058798
 # include taskflow
 include(FetchContent)

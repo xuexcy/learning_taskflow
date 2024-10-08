@@ -2,14 +2,14 @@
     "version": 8,
     "configurePresets": [
         {
-            "name": "CMakePresets.json",
-            "displayName": "Clang 16.0.0 x86_64-apple-darwin24.0.0",
-            "description": "Using compilers: C = /usr/bin/clang, CXX = /usr/bin/clang++",
+            "name": "clang_19.1.1",
+            "displayName": "Clang 19.1.1 x86_64-apple-darwin24.0.0",
+            "description": "Using compilers: C = /usr/local/opt/llvm/bin/clang, CXX = /usr/local/opt/llvm/bin/clang++",
             "binaryDir": "${sourceDir}/build",
             "cacheVariables": {
-                "CMAKE_INSTALL_PREFIX": "${sourceDir}/install/${presetName}",
-                "CMAKE_C_COMPILER": "/usr/bin/clang",
-                "CMAKE_CXX_COMPILER": "/usr/bin/clang++",
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/install",
+                "CMAKE_C_COMPILER": "/usr/local/opt/llvm/bin/clang",
+                "CMAKE_CXX_COMPILER": "/usr/local/opt/llvm/bin/clang++",
                 "CMAKE_BUILD_TYPE": "Debug"
             }
         }

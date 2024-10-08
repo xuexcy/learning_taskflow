@@ -1,391 +1,391 @@
 [
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/lib -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++2b -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/learning_taskflow.dir/main.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/main.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/lib -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++23 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/learning_taskflow.dir/main.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/main.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/main.cpp",
   "output": "CMakeFiles/learning_taskflow.dir/main.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/simple.dir/simple.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/simple.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/simple.dir/simple.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/simple.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/simple.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/simple.dir/simple.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/attach_data.dir/attach_data.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/attach_data.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/attach_data.dir/attach_data.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/attach_data.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/attach_data.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/attach_data.dir/attach_data.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/async.dir/async.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/async.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/async.dir/async.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/async.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/async.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/async.dir/async.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/subflow_async.dir/subflow_async.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/subflow_async.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/subflow_async.dir/subflow_async.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/subflow_async.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/subflow_async.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/subflow_async.dir/subflow_async.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/dependent_async.dir/dependent_async.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/dependent_async.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/dependent_async.dir/dependent_async.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/dependent_async.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/dependent_async.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/dependent_async.dir/dependent_async.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/dependent_async_algorithm.dir/dependent_async_algorithm.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/dependent_async_algorithm.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/dependent_async_algorithm.dir/dependent_async_algorithm.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/dependent_async_algorithm.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/dependent_async_algorithm.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/dependent_async_algorithm.dir/dependent_async_algorithm.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/observer.dir/observer.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/observer.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/observer.dir/observer.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/observer.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/observer.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/observer.dir/observer.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/subflow.dir/subflow.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/subflow.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/subflow.dir/subflow.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/subflow.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/subflow.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/subflow.dir/subflow.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/fibonacci.dir/fibonacci.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/fibonacci.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/fibonacci.dir/fibonacci.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/fibonacci.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/fibonacci.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/fibonacci.dir/fibonacci.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/condition.dir/condition.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/condition.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/condition.dir/condition.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/condition.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/condition.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/condition.dir/condition.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/multi_condition.dir/multi_condition.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/multi_condition.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/multi_condition.dir/multi_condition.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/multi_condition.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/multi_condition.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/multi_condition.dir/multi_condition.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/switch_case.dir/switch_case.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/switch_case.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/switch_case.dir/switch_case.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/switch_case.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/switch_case.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/switch_case.dir/switch_case.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/do_while_loop.dir/do_while_loop.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/do_while_loop.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/do_while_loop.dir/do_while_loop.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/do_while_loop.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/do_while_loop.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/do_while_loop.dir/do_while_loop.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/while_loop.dir/while_loop.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/while_loop.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/while_loop.dir/while_loop.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/while_loop.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/while_loop.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/while_loop.dir/while_loop.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/if_else.dir/if_else.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/if_else.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/if_else.dir/if_else.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/if_else.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/if_else.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/if_else.dir/if_else.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/nested_if_else.dir/nested_if_else.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/nested_if_else.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/nested_if_else.dir/nested_if_else.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/nested_if_else.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/nested_if_else.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/nested_if_else.dir/nested_if_else.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/priority.dir/priority.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/priority.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/priority.dir/priority.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/priority.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/priority.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/priority.dir/priority.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/visualization.dir/visualization.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/visualization.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/visualization.dir/visualization.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/visualization.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/visualization.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/visualization.dir/visualization.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/parallel_for.dir/parallel_for.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/parallel_for.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/parallel_for.dir/parallel_for.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/parallel_for.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/parallel_for.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/parallel_for.dir/parallel_for.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/parallel_sort.dir/parallel_sort.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/parallel_sort.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/parallel_sort.dir/parallel_sort.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/parallel_sort.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/parallel_sort.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/parallel_sort.dir/parallel_sort.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/reduce.dir/reduce.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/reduce.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/reduce.dir/reduce.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/reduce.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/reduce.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/reduce.dir/reduce.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/inclusive_scan.dir/inclusive_scan.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/inclusive_scan.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/inclusive_scan.dir/inclusive_scan.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/inclusive_scan.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/inclusive_scan.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/inclusive_scan.dir/inclusive_scan.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/exclusive_scan.dir/exclusive_scan.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/exclusive_scan.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/exclusive_scan.dir/exclusive_scan.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/exclusive_scan.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/exclusive_scan.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/exclusive_scan.dir/exclusive_scan.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/pipeline.dir/pipeline.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/pipeline.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/pipeline.dir/pipeline.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/pipeline.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/pipeline.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/pipeline.dir/pipeline.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/scalable_pipeline.dir/scalable_pipeline.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/scalable_pipeline.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/scalable_pipeline.dir/scalable_pipeline.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/scalable_pipeline.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/scalable_pipeline.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/scalable_pipeline.dir/scalable_pipeline.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/scalable_pipeline_with_deferred_tokens.dir/scalable_pipeline_with_deferred_tokens.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/scalable_pipeline_with_deferred_tokens.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/scalable_pipeline_with_deferred_tokens.dir/scalable_pipeline_with_deferred_tokens.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/scalable_pipeline_with_deferred_tokens.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/scalable_pipeline_with_deferred_tokens.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/scalable_pipeline_with_deferred_tokens.dir/scalable_pipeline_with_deferred_tokens.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/text_pipeline.dir/text_pipeline.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/text_pipeline.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/text_pipeline.dir/text_pipeline.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/text_pipeline.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/text_pipeline.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/text_pipeline.dir/text_pipeline.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/taskflow_pipeline.dir/taskflow_pipeline.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/taskflow_pipeline.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/taskflow_pipeline.dir/taskflow_pipeline.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/taskflow_pipeline.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/taskflow_pipeline.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/taskflow_pipeline.dir/taskflow_pipeline.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/parallel_graph_pipeline.dir/parallel_graph_pipeline.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/parallel_graph_pipeline.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/parallel_graph_pipeline.dir/parallel_graph_pipeline.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/parallel_graph_pipeline.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/parallel_graph_pipeline.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/parallel_graph_pipeline.dir/parallel_graph_pipeline.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/parallel_data_pipeline.dir/parallel_data_pipeline.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/parallel_data_pipeline.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/parallel_data_pipeline.dir/parallel_data_pipeline.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/parallel_data_pipeline.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/parallel_data_pipeline.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/parallel_data_pipeline.dir/parallel_data_pipeline.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/pipeline_with_deferred_tokens.dir/pipeline_with_deferred_tokens.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/pipeline_with_deferred_tokens.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/pipeline_with_deferred_tokens.dir/pipeline_with_deferred_tokens.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/pipeline_with_deferred_tokens.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/pipeline_with_deferred_tokens.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/pipeline_with_deferred_tokens.dir/pipeline_with_deferred_tokens.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/run.dir/run.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/run.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/run.dir/run.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/run.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/run.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/run.dir/run.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/corun.dir/corun.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/corun.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/corun.dir/corun.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/corun.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/corun.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/corun.dir/corun.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/runtime.dir/runtime.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/runtime.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/runtime.dir/runtime.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/runtime.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/runtime.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/runtime.dir/runtime.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/composition.dir/composition.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/composition.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/composition.dir/composition.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/composition.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/composition.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/composition.dir/composition.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/limited_concurrency.dir/limited_concurrency.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/limited_concurrency.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/limited_concurrency.dir/limited_concurrency.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/limited_concurrency.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/limited_concurrency.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/limited_concurrency.dir/limited_concurrency.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/cancel.dir/cancel.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/cancel.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/cancel.dir/cancel.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/cancel.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/cancel.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/cancel.dir/cancel.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/examples",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/exception.dir/exception.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/exception.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/exception.dir/exception.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/exception.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/examples/exception.cpp",
   "output": "_deps/taskflow-build/examples/CMakeFiles/exception.dir/exception.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_utility.dir/test_utility.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_utility.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_utility.dir/test_utility.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_utility.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_utility.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_utility.dir/test_utility.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_work_stealing.dir/test_work_stealing.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_work_stealing.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_work_stealing.dir/test_work_stealing.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_work_stealing.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_work_stealing.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_work_stealing.dir/test_work_stealing.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_priorities.dir/test_priorities.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_priorities.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_priorities.dir/test_priorities.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_priorities.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_priorities.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_priorities.dir/test_priorities.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_basics.dir/test_basics.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_basics.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_basics.dir/test_basics.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_basics.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_basics.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_basics.dir/test_basics.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_asyncs.dir/test_asyncs.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_asyncs.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_asyncs.dir/test_asyncs.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_asyncs.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_asyncs.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_asyncs.dir/test_asyncs.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_dependent_asyncs.dir/test_dependent_asyncs.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_dependent_asyncs.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_dependent_asyncs.dir/test_dependent_asyncs.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_dependent_asyncs.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_dependent_asyncs.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_dependent_asyncs.dir/test_dependent_asyncs.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_subflows.dir/test_subflows.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_subflows.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_subflows.dir/test_subflows.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_subflows.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_subflows.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_subflows.dir/test_subflows.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_control_flow.dir/test_control_flow.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_control_flow.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_control_flow.dir/test_control_flow.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_control_flow.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_control_flow.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_control_flow.dir/test_control_flow.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_semaphores.dir/test_semaphores.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_semaphores.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_semaphores.dir/test_semaphores.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_semaphores.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_semaphores.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_semaphores.dir/test_semaphores.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_movable.dir/test_movable.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_movable.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_movable.dir/test_movable.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_movable.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_movable.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_movable.dir/test_movable.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_cancellation.dir/test_cancellation.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_cancellation.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_cancellation.dir/test_cancellation.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_cancellation.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_cancellation.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_cancellation.dir/test_cancellation.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_for_each.dir/test_for_each.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_for_each.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_for_each.dir/test_for_each.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_for_each.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_for_each.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_for_each.dir/test_for_each.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_reduce.dir/test_reduce.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_reduce.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_reduce.dir/test_reduce.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_reduce.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_reduce.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_reduce.dir/test_reduce.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_transform.dir/test_transform.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_transform.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_transform.dir/test_transform.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_transform.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_transform.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_transform.dir/test_transform.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_sort.dir/test_sort.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_sort.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_sort.dir/test_sort.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_sort.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_sort.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_sort.dir/test_sort.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_scan.dir/test_scan.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_scan.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_scan.dir/test_scan.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_scan.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_scan.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_scan.dir/test_scan.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_find.dir/test_find.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_find.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_find.dir/test_find.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_find.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_find.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_find.dir/test_find.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_compositions.dir/test_compositions.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_compositions.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_compositions.dir/test_compositions.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_compositions.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_compositions.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_compositions.dir/test_compositions.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_traversals.dir/test_traversals.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_traversals.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_traversals.dir/test_traversals.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_traversals.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_traversals.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_traversals.dir/test_traversals.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_pipelines.dir/test_pipelines.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_pipelines.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_pipelines.dir/test_pipelines.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_pipelines.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_pipelines.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_pipelines.dir/test_pipelines.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_scalable_pipelines.dir/test_scalable_pipelines.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_scalable_pipelines.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_scalable_pipelines.dir/test_scalable_pipelines.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_scalable_pipelines.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_scalable_pipelines.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_scalable_pipelines.dir/test_scalable_pipelines.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_deferred_pipelines.dir/test_deferred_pipelines.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_deferred_pipelines.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_deferred_pipelines.dir/test_deferred_pipelines.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_deferred_pipelines.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_deferred_pipelines.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_deferred_pipelines.dir/test_deferred_pipelines.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_deferred_scalable_pipelines.dir/test_deferred_scalable_pipelines.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_deferred_scalable_pipelines.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_deferred_scalable_pipelines.dir/test_deferred_scalable_pipelines.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_deferred_scalable_pipelines.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_deferred_scalable_pipelines.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_deferred_scalable_pipelines.dir/test_deferred_scalable_pipelines.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_runtimes.dir/test_runtimes.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_runtimes.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_runtimes.dir/test_runtimes.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_runtimes.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_runtimes.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_runtimes.dir/test_runtimes.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_data_pipelines.dir/test_data_pipelines.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_data_pipelines.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_data_pipelines.dir/test_data_pipelines.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_data_pipelines.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_data_pipelines.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_data_pipelines.dir/test_data_pipelines.cpp.o"
 },
 {
   "directory": "/Users/xuechengyun/code/cpp/learning_taskflow/build/_deps/taskflow-build/unittests",
-  "command": "/usr/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_exceptions.dir/test_exceptions.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_exceptions.cpp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow -I/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/3rd-party/doctest -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wall -Wextra -Wfatal-errors -Wshadow -o CMakeFiles/test_exceptions.dir/test_exceptions.cpp.o -c /Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_exceptions.cpp",
   "file": "/Users/xuechengyun/code/cpp/learning_taskflow/thirdparty/taskflow/unittests/test_exceptions.cpp",
   "output": "_deps/taskflow-build/unittests/CMakeFiles/test_exceptions.dir/test_exceptions.cpp.o"
 }

@@ -1,0 +1,16 @@
+digraph Taskflow {
+subgraph cluster_p0x7ff7bc8c9710 {
+label="Taskflow: pipeline";
+p0x7f8f12065c00[shape=box3d, color=blue, label="pipeline [m1]"];
+}
+subgraph cluster_p0x7ff7bc8c9028 {
+label="m1";
+p0x7f8f12065d10[label="cond" shape=diamond color=black fillcolor=aquamarine style=filled];
+p0x7f8f12065d10 -> p0x7f8f12065e20 [style=dashed label="0"];
+p0x7f8f12065d10 -> p0x7f8f120659e0 [style=dashed label="1"];
+p0x7f8f12065d10 -> p0x7f8f12065af0 [style=dashed label="2"];
+p0x7f8f12065e20[label="rt-0" ];
+p0x7f8f120659e0[label="rt-1" ];
+p0x7f8f12065af0[label="rt-2" ];
+}
+}

@@ -18,6 +18,9 @@
 #include "limited_concurrency.h"
 #include "multi_condition.h"
 #include "nested_if_else.h"
+#include "observer.h"
+#include "parallel_data_pipeline.h"
+#include "parallel_for.h"
 #include "utils/macros.h"
 
 #include "taskflow/taskflow.hpp"
@@ -66,6 +69,9 @@ int main(){
     limited_concurrency,
     multi_condition,
     nested_if_else,
+    observer,
+    parallel_data_pipeline,
+    parallel_for,
   );
   return 0;
 }
