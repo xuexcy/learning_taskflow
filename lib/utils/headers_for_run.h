@@ -21,3 +21,5 @@
 #include "parallel_data_pipeline.h"
 #include "parallel_for.h"
 #include "parallel_graph_pipeline.h"
+#include "parallel_sort.h"
+#include "pipeline_with_deferred_tokens.h"

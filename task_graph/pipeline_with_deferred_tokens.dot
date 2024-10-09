@@ -1,0 +1,22 @@
+digraph Taskflow {
+subgraph cluster_p0x7ff7bc0a1b68 {
+label="Taskflow: deferred_pipeline";
+p0x7fb9e0965c00[label="starting pipeline" ];
+p0x7fb9e0965c00 -> p0x7fb9e0965e20;
+p0x7fb9e0965e20[shape=box3d, color=blue, label="deferred_pipeline [m1]"];
+p0x7fb9e0965e20->p0x7fb9e09659e0;
+p0x7fb9e09659e0[label="pipeline stopped" ];
+}
+subgraph cluster_p0x7ff7bc0a1460 {
+label="m1";
+p0x7fb9e0961f70[label="cond" shape=diamond color=black fillcolor=aquamarine style=filled];
+p0x7fb9e0961f70 -> p0x7fb9e0961b30 [style=dashed label="0"];
+p0x7fb9e0961f70 -> p0x7fb9e0961c40 [style=dashed label="1"];
+p0x7fb9e0961f70 -> p0x7fb9e0961d50 [style=dashed label="2"];
+p0x7fb9e0961f70 -> p0x7fb9e0961e60 [style=dashed label="3"];
+p0x7fb9e0961b30[label="rt-0" ];
+p0x7fb9e0961c40[label="rt-1" ];
+p0x7fb9e0961d50[label="rt-2" ];
+p0x7fb9e0961e60[label="rt-3" ];
+}
+}

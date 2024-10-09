@@ -6,6 +6,8 @@
 #include "taskflow/taskflow.hpp"
 #include "taskflow/algorithm/scan.hpp"
 
+#include "utils/util.h"
+
 namespace learning_taskflow
 {
 // W=1, N=2000
@@ -57,23 +59,23 @@ void run_exclusive_scan(size_t W, size_t N) {
     std::vector<int> scan_seq(N);
     std::vector<int> scan_par(N);
     {
-        auto beg = std::chrono::steady_clock::now();
+        auto beg = now();
         std::exclusive_scan(
             elements.begin(), elements.end(), scan_seq.begin(), 0
         );
         // scan_seq: [0, 0 + 0, 0 + 0 + 1, ..., 0 + 1 + 2 + ... + N - 2]
-        auto end = std::chrono::steady_clock::now();
+        auto end = now();
         std::print(
             "// sequential exclusive scan {}ns\n",
             std::chrono::duration_cast<std::chrono::nanoseconds>(end - beg).count());
     }
     {
-        auto beg = std::chrono::steady_clock::now();
+        auto beg = now();
         taskflow.exclusive_scan(
             elements.begin(), elements.end(), scan_par.begin(), 0, std::plus<int>()
         );
         exec.run(taskflow).wait();
-        auto end = std::chrono::steady_clock::now();
+        auto end = now();
         std::print(
             "// parallel exclusive scan {}ns\n",
             std::chrono::duration_cast<std::chrono::nanoseconds>(end - beg).count());

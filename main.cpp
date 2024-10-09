@@ -1,10 +1,11 @@
 #include <functional>
 #include <print>
 
+#include "taskflow/taskflow.hpp"
+
 #include "utils/headers_for_run.h"
 #include "utils/macros.h"
 
-#include "taskflow/taskflow.hpp"
 
 void invoke(const std::string& name, std::function<void()> f) {
   std::print("------------ Start {} ------------\n", name);
@@ -54,6 +55,8 @@ int main(){
     parallel_data_pipeline,
     parallel_for,
     parallel_graph_pipeline,
+    parallel_sort,
+    pipeline_with_deferred_tokens,
   );
   return 0;
 }
