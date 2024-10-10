@@ -58,6 +58,7 @@ int main(){
     parallel_sort,
     pipeline_with_deferred_tokens,
     pipeline,
+    priority,
   );
   return 0;
 }
