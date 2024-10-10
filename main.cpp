@@ -61,6 +61,7 @@ int main(){
     priority,
     reduce,
     run,
+    runtime,
   );
   return 0;
 }
