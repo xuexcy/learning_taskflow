@@ -23,3 +23,4 @@
 #include "parallel_graph_pipeline.h"
 #include "parallel_sort.h"
 #include "pipeline_with_deferred_tokens.h"
+#include "pipeline.h"

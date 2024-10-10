@@ -57,6 +57,7 @@ int main(){
     parallel_graph_pipeline,
     parallel_sort,
     pipeline_with_deferred_tokens,
+    pipeline,
   );
   return 0;
 }
