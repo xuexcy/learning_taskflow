@@ -59,6 +59,7 @@ int main(){
     pipeline_with_deferred_tokens,
     pipeline,
     priority,
+    reduce,
   );
   return 0;
 }

@@ -25,3 +25,4 @@
 #include "pipeline_with_deferred_tokens.h"
 #include "pipeline.h"
 #include "priority.h"
+#include "reduce.h"
