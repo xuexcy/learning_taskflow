@@ -64,9 +64,9 @@ std::vector<std::string> random_strings() {
 void run_serial() {
     auto str = random_strings();
     std::print("std::sort ... ");
-    auto beg = now();
+    auto beg = utils::now();
     std::sort(str.begin(), str.end());
-    auto end = now();
+    auto end = utils::now();
     std::print(
         "{} ms\n",
         std::chrono::duration_cast<std::chrono::milliseconds>(end - beg).count());
@@ -75,14 +75,14 @@ void run_serial() {
 void run_parallel() {
     auto strs = random_strings();
     std::print("Taskflow Parallel Sort ... ");
-    auto beg = now();
+    auto beg = utils::now();
     {
         tf::Taskflow taskflow;
         tf::Executor exec;
         taskflow.sort(strs.begin(), strs.end());
         exec.run(taskflow).wait();
     }
-    auto end = now();
+    auto end = utils::now();
     std::print(
         "{} ms\n",
         std::chrono::duration_cast<std::chrono::milliseconds>(end - beg).count());

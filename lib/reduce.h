@@ -47,19 +47,19 @@ void run_reduce_min() {
         data.push_back(::rand());
     }
 
-    auto beg = now();
+    auto beg = utils::now();
     auto min = std::numeric_limits<int>::max();
     for (auto& d: data) {
         min = std::min(min, d);
     }
-    auto end = now();
+    auto end = utils::now();
     std::print(
         "// [sequential] reduce: {} us\n",
         std::chrono::duration_cast<std::chrono::microseconds>(end - beg).count());
 
     tf::Taskflow taskflow;
     tf::Executor exec;
-    auto tbeg = now();
+    auto tbeg = utils::now();
     auto tmin = std::numeric_limits<int>::max();
     taskflow.reduce(
         data.begin(), data.end(),
@@ -67,7 +67,7 @@ void run_reduce_min() {
         [](int& l, const auto& r) { return std::min(l, r); }
     );
     exec.run(taskflow).get();
-    auto tend = now();
+    auto tend = utils::now();
     std::print(
         "// [taskflow] reduce: {} us\n",
         std::chrono::duration_cast<std::chrono::microseconds>(tend - tbeg).count());
@@ -78,19 +78,19 @@ void run_reduce_min() {
 void run_transform_reduce_min() {
     std::print("// Benchmark: transform_reduce\n");
     std::vector<Data> data(MAX_DATA_SIZE);
-    auto beg = now();
+    auto beg = utils::now();
     auto min = std::numeric_limits<int>::max();
     for(auto& d: data) {
         min = std::min(min, d.transform());
     }
-    auto end = now();
+    auto end = utils::now();
     std::print(
         "// [sequential] transform_reduce: {} us\n",
         std::chrono::duration_cast<std::chrono::microseconds>(end - beg).count());
 
     tf::Executor exec;
     tf::Taskflow tf;
-    auto tbeg = now();
+    auto tbeg = utils::now();
     auto tmin = std::numeric_limits<int>::max();
     tf.transform_reduce(
         data.begin(), data.end(),
@@ -99,7 +99,7 @@ void run_transform_reduce_min() {
         [](const Data& d) { return d.transform(); }
     );
     exec.run(tf).get();
-    auto tend = now();
+    auto tend = utils::now();
     std::print(
         "// [taskflow] transform_reduce: {} us\n",
         std::chrono::duration_cast<std::chrono::microseconds>(tend - tbeg).count());

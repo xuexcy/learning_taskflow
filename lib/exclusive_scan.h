@@ -59,23 +59,23 @@ void run_exclusive_scan(size_t W, size_t N) {
     std::vector<int> scan_seq(N);
     std::vector<int> scan_par(N);
     {
-        auto beg = now();
+        auto beg = utils::now();
         std::exclusive_scan(
             elements.begin(), elements.end(), scan_seq.begin(), 0
         );
         // scan_seq: [0, 0 + 0, 0 + 0 + 1, ..., 0 + 1 + 2 + ... + N - 2]
-        auto end = now();
+        auto end = utils::now();
         std::print(
             "// sequential exclusive scan {}ns\n",
             std::chrono::duration_cast<std::chrono::nanoseconds>(end - beg).count());
     }
     {
-        auto beg = now();
+        auto beg = utils::now();
         taskflow.exclusive_scan(
             elements.begin(), elements.end(), scan_par.begin(), 0, std::plus<int>()
         );
         exec.run(taskflow).wait();
-        auto end = now();
+        auto end = utils::now();
         std::print(
             "// parallel exclusive scan {}ns\n",
             std::chrono::duration_cast<std::chrono::nanoseconds>(end - beg).count());

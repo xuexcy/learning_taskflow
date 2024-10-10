@@ -14,12 +14,12 @@ void run_cancel() {
             std::this_thread::sleep_for(std::chrono::seconds(1));
         });
     }
-    auto beg = now();
+    auto beg = utils::now();
     tf::Future fu = executor.run(taskflow);
 
     fu.cancel();
     fu.get();
-    auto end = now();
+    auto end = utils::now();
     std::cout << "taskflow completes in "
         << std::chrono::duration_cast<std::chrono::milliseconds>(end - beg).count()
         << "  milliseconds\n";

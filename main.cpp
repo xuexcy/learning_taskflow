@@ -60,6 +60,7 @@ int main(){
     pipeline,
     priority,
     reduce,
+    run,
   );
   return 0;
 }
