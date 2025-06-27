@@ -62,6 +62,7 @@ int main(){
     reduce,
     run,
     runtime,
+    scalable_pipeline_with_deferred_tokens,
   );
   return 0;
 }

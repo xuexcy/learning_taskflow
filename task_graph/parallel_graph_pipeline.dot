@@ -1,18 +1,18 @@
 digraph Taskflow {
-subgraph cluster_p0x7ff7b94cf2a8 {
+subgraph cluster_p0x7ff7bcf8b228 {
 label="Taskflow: graph processing pipeline";
-p0x7f91cc3656b0[label="starting pipeline" ];
-p0x7f91cc3656b0 -> p0x7f91cc3659e0;
-p0x7f91cc3659e0[shape=box3d, color=blue, label="pipeline [m1]"];
-p0x7f91cc3659e0->p0x7f91cc365e20;
-p0x7f91cc365e20[label="pipeline stopped" ];
+p0x7fd5e7265e20[label="starting pipeline" ];
+p0x7fd5e7265e20 -> p0x7fd5e7265d10;
+p0x7fd5e7265d10[shape=box3d, color=blue, label="pipeline [m1]"];
+p0x7fd5e7265d10->p0x7fd5e72658d0;
+p0x7fd5e72658d0[label="pipeline stopped" ];
 }
-subgraph cluster_p0x7ff7b94cf020 {
+subgraph cluster_p0x7ff7bcf8afa0 {
 label="m1";
-p0x7f91cc365c00[label="cond" shape=diamond color=black fillcolor=aquamarine style=filled];
-p0x7f91cc365c00 -> p0x7f91cc3657c0 [style=dashed label="0"];
-p0x7f91cc365c00 -> p0x7f91cc3658d0 [style=dashed label="1"];
-p0x7f91cc3657c0[label="rt-0" ];
-p0x7f91cc3658d0[label="rt-1" ];
+p0x7fd5e7265c00[label="cond" shape=diamond color=black fillcolor=aquamarine style=filled];
+p0x7fd5e7265c00 -> p0x7fd5e7265af0 [style=dashed label="0"];
+p0x7fd5e7265c00 -> p0x7fd5e72659e0 [style=dashed label="1"];
+p0x7fd5e7265af0[label="rt-0" ];
+p0x7fd5e72659e0[label="rt-1" ];
 }
 }

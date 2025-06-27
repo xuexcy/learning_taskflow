@@ -28,3 +28,4 @@
 #include "reduce.h"
 #include "run.h"
 #include "runtime.h"
+#include "scalable_pipeline_with_deferred_tokens.h"
